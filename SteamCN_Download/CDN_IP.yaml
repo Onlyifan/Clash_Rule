@@ -1,5 +1,5 @@
-#解决Steam无法使用国内CDN下载
-#来源：https://www.dogfight360.com/blog/knowledge-base/fix_steamdl_region/
-#请使用：behavior: "ipcidr"
+# 解决Steam无法使用国内CDN下载
+# 来源：https://www.dogfight360.com/blog/knowledge-base/fix_steamdl_region/
+# 请使用：behavior: "ipcidr"
 payload:
-- '45.121.184.0/24'
+  - '45.121.184.0/24'
